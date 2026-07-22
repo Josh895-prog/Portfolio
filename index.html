@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan Joshua Mumo | TIT Student</title>
+  <meta name="description" content="Third-year Telecommunications and Information Technology student pursuing Data Science and Telecommunications opportunities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="#home">JJ Mumo</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Kenyatta University · Telecommunications & Information Technology</p>
+          <h1>Jonathan Joshua "Josh" Mumo</h1>
+          <p class="hero-text">Third-year TIT student focused on Data Science and Telecommunications, building practical projects with clean design and modern web practices.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <canvas id="heroCanvas" class="hero-canvas" width="600" height="600"></canvas>
+        </div>
+      </div>
+    </section>
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">About Me</p>
+          <h2>Academic foundation and career direction</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>Currently a third-year Telecommunications and Information Technology student at Kenyatta University in Nairobi. I am building toward a career in Data Science and Telecommunications with a strong interest in applied analytics, network systems, and technical problem solving.</p>
+            <p>Beyond the classroom, I am self-teaching Python and using web projects and data-focused challenges to strengthen my skills in programming, cloud tools, and user-centered solutions.</p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <strong>Study focus</strong>
+              <p>Telecommunications & Information Technology</p>
+            </div>
+            <div class="highlight-card">
+              <strong>Career interests</strong>
+              <p>Data Science · Telecommunications · Full-stack web tooling</p>
+            </div>
+            <div class="highlight-card">
+              <strong>Current learning</strong>
+              <p>Python, data analysis, and responsive web development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Projects</p>
+          <h2>Selected work with an emphasis on impact and reliability</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-tag">Web Development</p>
+              <h3>Dunia Bora Initiative</h3>
+            </div>
+            <p>Environmental conservation website built with plain HTML, CSS, and JavaScript. Includes a responsive layout, GitHub Pages deployment, and a Formspree contact integration for outreach.</p>
+            <ul class="project-stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>GitHub Pages</li>
+              <li>Formspree</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live site</a>
+              <a href="#" target="_blank" rel="noopener">GitHub repo</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-tag">Nonprofit Platform</p>
+              <h3>Akili Mali</h3>
+            </div>
+            <p>Website for a mental health nonprofit with gated member content, Firebase Authentication, and Formspree-based contact submission. Designed for accessibility and ease of use.</p>
+            <ul class="project-stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Firebase Auth</li>
+              <li>Formspree</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live site</a>
+              <a href="#" target="_blank" rel="noopener">GitHub repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2>Technical competencies</h2>
+        </div>
+        <div class="skill-grid">
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">Python (in progress)</span>
+          <span class="skill-pill">Firebase</span>
+          <span class="skill-pill">Git & GitHub</span>
+          <span class="skill-pill">Three.js</span>
+        </div>
+      </div>
+    </section>
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-heading">
+            <p class="section-label">Contact</p>
+            <h2>Connect for internships, projects, or mentorship</h2>
+          </div>
+          <p>Send a short message below or connect on GitHub.</p>
+          <div class="contact-links">
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:example@example.com">Email</a>
+          </div>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/myform" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Briefly describe your inquiry"></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Jonathan Joshua Mumo • Third-year TIT student • Nairobi, Kenya</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
