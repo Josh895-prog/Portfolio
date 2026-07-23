@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan Joshua Mumo | TIT Student & Data Science Explorer</title>
+  <meta name="description" content="Jonathan Joshua Mumo, third-year Telecommunications and Information Technology student at Kenyatta University." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#home">Jonathan Joshua Mumo</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Kenyatta University · Telecommunications & Information Technology</p>
+          <h1>Jonathan Joshua Mumo</h1>
+          <p class="hero-text">Third-year Telecommunications and Information Technology student at Kenyatta University. Focused on Data Science, Telecommunications networks, Python development, and modern web systems.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Let’s connect</a>
+            <a class="btn btn-secondary" href="#about">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo-card">
+            <img src="assets/profile.jpg" alt="Portrait of Jonathan Joshua Mumo" class="hero-photo" onerror="this.onerror=null; this.src='assets/IMG-20251221-WA0056.jpg';" />
+          </div>
+          <canvas id="heroCanvas" role="img" aria-label="Decorative 3D abstract visual"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container content-card">
+        <h2>About Me</h2>
+        <p>I am a third-year Telecommunications and Information Technology student at Kenyatta University in Nairobi, Kenya. I am passionate about Data Science and Telecommunications infrastructure, expanding my Python programming skill set through practical real-world projects and interactive exercises.</p>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container content-card">
+        <h2>Skills & Technologies</h2>
+        <div class="skill-grid">
+          <div class="skill-badge"><span>HTML5</span></div>
+          <div class="skill-badge"><span>CSS3</span></div>
+          <div class="skill-badge"><span>JavaScript</span></div>
+          <div class="skill-badge"><span>Python</span></div>
+          <div class="skill-badge"><span>Telecommunications</span></div>
+          <div class="skill-badge"><span>Data Science</span></div>
+          <div class="skill-badge"><span>Git & GitHub</span></div>
+          <div class="skill-badge"><span>Three.js</span></div>
+          <div class="skill-badge"><span>Responsive Design</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="content-card contact-card">
+          <h2>Get in Touch</h2>
+          <p class="contact-subtext">Feel free to reach out for collaborations, project inquiries, or telecommunication & data science discussions.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-label">Phone:</span>
+              <a href="tel:0115693447" class="contact-link">0115693447</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Email:</span>
+              <a href="mailto:jonathanmumo34@gmail.com" class="contact-link">jonathanmumo34@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Location:</span>
+              <span class="contact-value">Nairobi, Kenya</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>Jonathan Joshua Mumo &bull; TIT Student &bull; Nairobi, Kenya</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/three@0.152.2/build/three.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
